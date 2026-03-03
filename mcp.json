@@ -1,0 +1,15 @@
+{
+  "mcpVersion": "1.0",
+  "tools": [
+    {
+      "name": "get_weather",
+      "description": "Get local weather",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "location": { "type": "string" }
+        }
+      }
+    }
+  ]
+}
