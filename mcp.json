@@ -7,8 +7,11 @@
       "inputSchema": {
         "type": "object",
         "properties": {
-          "location": { "type": "string" }
-        }
+          "location": {
+            "type": "string"
+          }
+        },
+        "required": ["location"]
       }
     }
   ]
